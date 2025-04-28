@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
         btnSummer.setOnClickListener(btnListener);
         btnFall.setOnClickListener(btnListener);
         btnWinter.setOnClickListener(btnListener);
+
+        linearSpring.setVisibility(View.INVISIBLE);
+        linearSummer.setVisibility(View.INVISIBLE);
+        linearFall.setVisibility(View.INVISIBLE);
+        linearWinter.setVisibility(View.INVISIBLE);
     }
 
     View.OnClickListener btnListener = new View.OnClickListener() {
